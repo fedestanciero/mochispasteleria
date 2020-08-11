@@ -1,0 +1,135 @@
+.header {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	
+	.header__logo {
+		width: 110px;
+		padding-left: 20px;
+	}
+
+	.header__logo:hover {
+		cursor: pointer;
+		transform: scale(1.05);
+		transition-duration: 0.5s;
+	}
+}
+
+.contenedor-widgets-home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+
+		.contenedor-widgets-home__titulo {
+			font-size: 3rem;
+		}
+
+		.contenedor-widgets-home__box-tarjetas {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+				.contenedor-widgets-home__box-tarjetas__tarjeta {
+					box-shadow: 0px 0px 13px 7px #E8E8E8;
+					border-radius: 7px;
+					padding: 0px;
+
+						.contenedor-widgets-home__box-tarjetas__tarjeta__img {
+							border-radius: 5px;
+						}
+						.contenedor-widgets-home__box-tarjetas__tarjeta__h3 {
+							font-weight: 400;
+							font-size: 2.3rem;
+							padding-top: 10px;
+						}
+				}
+
+				.contenedor-widgets-home__box-tarjetas__tarjeta:hover {
+					transform: scale(1.05);
+					cursor: pointer;
+					transition-duration: 0.5s;
+				}
+		}
+}
+
+.seccion-conocenos-home {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	@media only screen and (min-width: 768px) {
+		.seccion-conocenos-home {
+		width: 60%;
+		}
+	}
+
+		.seccion-conocenos-home__contenedor {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			align-items: center;
+			box-shadow: 0px 0px 13px 7px #E8E8E8;
+			border-radius: 7px;
+		}
+
+			.seccion-conocenos-home__contenedor__subcontenedor {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding: 15px;
+			}
+
+				.seccion-conocenos-home__contenedor__subcontenedor__img {
+					border-radius: 10px;
+				}
+				.seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor {
+					padding: 10px;
+
+					.seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__h2 {
+						font-size: 4rem;
+					}
+					.seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__p {
+						font-size: 1.5rem;
+						font-weight: 300;
+					}
+					.seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__button {
+						background-color: #FF9296;
+						border-radius: 15px;
+
+						.seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__button__a {
+							padding: 12px;
+							text-decoration: none;
+							display: block;
+							color: white;
+							font-size: 1.5rem;
+							font-weight: 400;
+						}
+					}
+					.seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__button:hover {
+						transform: scale(1.15);
+						cursor: pointer;
+						transition-duration: 0.5s;
+					}
+				}
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #FF9296;
+	margin-top: 40px;
+
+	.footer__img {
+		width: 90px;
+		padding: 7px;
+	}
+}
+
+
