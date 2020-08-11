@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos-scss.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -16,8 +16,8 @@
 
 	<!-- Menu -->
 
-	<header class="container-fluid">
-		<div class="logo row">
+	<header class="header container-fluid">
+		<div class="header__logo row">
 			<a href="index.html">
 			<img src="imagenes/logo.png" alt="Mochis">
 			</a>
@@ -95,40 +95,40 @@
 			</a>
 	</div>
 	<div class="contenedor-widgets-home container col">
-		<div class="text-center">
+		<div class="contenedor-widgets-home__titulo text-center">
 			<h2>Nuestras especialidades</h2>
 		</div>
-		<div class="row centrar-div">
-			<div class="widgets-home col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
+		<div class="row contenedor-widgets-home__box-tarjetas">
+			<div class="contenedor-widgets-home__box-tarjetas__tarjeta col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
 				<div>
-					<img src="imagenes/widget-tortas.jpg" alt="Tortas">
+					<img class="contenedor-widgets-home__box-tarjetas__tarjeta__img" src="imagenes/widget-tortas.jpg" alt="Tortas">
 				</div>
 				<div>
-					<h3>Tortas</h3>
-				</div>
-			</div>
-			<div class="widgets-home col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
-				<div>
-					<img src="imagenes/widget-postres.jpg" alt="Postres">
-				</div>
-				<div>
-					<h3>Postres</h3>
+					<h3 class="contenedor-widgets-home__box-tarjetas__tarjeta__h3">Tortas</h3>
 				</div>
 			</div>
-			<div class="widgets-home col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
+			<div class="contenedor-widgets-home__box-tarjetas__tarjeta col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
 				<div>
-					<img src="imagenes/widget-tartas.jpg" alt="Tartas">
+					<img class="contenedor-widgets-home__box-tarjetas__tarjeta__img" src="imagenes/widget-postres.jpg" alt="Postres">
 				</div>
 				<div>
-					<h3>Tartas</h3>
+					<h3 class="contenedor-widgets-home__box-tarjetas__tarjeta__h3">Postres</h3>
 				</div>
 			</div>
-			<div class="widgets-home col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
+			<div class="contenedor-widgets-home__box-tarjetas__tarjeta col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
 				<div>
-					<img src="imagenes/widget-delicias.jpg" alt="Delicias">
+					<img class="contenedor-widgets-home__box-tarjetas__tarjeta__img" src="imagenes/widget-tartas.jpg" alt="Tartas">
 				</div>
 				<div>
-					<h3>Delicias</h3>
+					<h3 class="contenedor-widgets-home__box-tarjetas__tarjeta__h3">Tartas</h3>
+				</div>
+			</div>
+			<div class="contenedor-widgets-home__box-tarjetas__tarjeta col-lg-2 col-md-5 col-10 mx-auto mx-md-4 my-5 text-center">
+				<div>
+					<img class="contenedor-widgets-home__box-tarjetas__tarjeta__img" src="imagenes/widget-delicias.jpg" alt="Delicias">
+				</div>
+				<div>
+					<h3 class="contenedor-widgets-home__box-tarjetas__tarjeta__h3">Delicias</h3>
 				</div>
 			</div>
 		</div>
@@ -137,29 +137,29 @@
 		<hr>
 	</div>
 	<div class="seccion-conocenos-home container-fluid">
-		<div class="contenedor-conocenos container">
+		<div class="seccion-conocenos-home__contenedor container">
 			<div class="row">
-				<div class="subcontenedor-conocenos col-12 col-md-6">
-					<img src="imagenes/angeles.jpg" alt="Mochis">
+				<div class="seccion-conocenos-home__contenedor__subcontenedor col-12 col-md-6">
+					<img class="seccion-conocenos-home__contenedor__subcontenedor__img" src="imagenes/angeles.jpg" alt="Mochis">
 				</div>
-				<div class="subcontenedor-conocenos col-12 col-md-6">
-					<div>
-						<h2>¡Conocenos!</h2>
+				<div class="seccion-conocenos-home__contenedor__subcontenedor col-12 col-md-6">
+					<div class="seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor">
+						<h2 class="seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__h2">¡Conocenos!</h2>
 					</div>
-					<div>
-						<p>¡Hola! Soy Ángeles, fundadora de Mochis. Estoy casada y tengo 3 hijos. Soy maestra jardinera, pero no ejerzo. AMO la pastelería desde muy chica... </p>
+					<div class="seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor">
+						<p class="seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__p">¡Hola! Soy Ángeles, fundadora de Mochis. Estoy casada y tengo 3 hijos. Soy maestra jardinera, pero no ejerzo. AMO la pastelería desde muy chica... </p>
 					</div>
-					<div>
-						<button>
-							<a href="quienes-somos.html">Leer más</a>
+					<div class="seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor">
+						<button class="seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__button">
+							<a class="seccion-conocenos-home__contenedor__subcontenedor__subsubcontenedor__button__a" href="quienes-somos.html">Leer más</a>
 						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<footer>
-		<img src="imagenes/logo-footer.png" alt="Mochis Pastelería">
+	<footer class="footer">
+		<img class="footer_img" src="imagenes/logo-footer.png" alt="Mochis Pastelería">
 	</footer>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
